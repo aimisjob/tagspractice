@@ -3,7 +3,7 @@ pipeline{
    stages{
      stage('build'){
        when{
-         tag "release-*"
+         changeRequest()
         }
        steps{
          echo "hello worlds building tags"
