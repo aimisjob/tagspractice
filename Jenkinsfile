@@ -6,7 +6,7 @@ pipeline{
          changeRequest()
         }
        steps{
-         echo "hello worlds building tags"
+         echo "hello worlds change request"
          }
         }
        }
