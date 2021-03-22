@@ -3,7 +3,7 @@ pipeline{
    stages{
      stage('build'){
        when{
-         tag "3.0"
+         buildingTag()
 
         }
        steps{
