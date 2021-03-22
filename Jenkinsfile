@@ -3,10 +3,10 @@ pipeline{
    stages{
      stage('build'){
        when{
-         changeRequest()
+         buildigTag()
         }
        steps{
-         echo "hello worlds change request"
+         echo "hello world"
          }
         }
        }
